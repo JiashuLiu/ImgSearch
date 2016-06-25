@@ -1,0 +1,15 @@
+{
+  "name": "img_search",
+  "version": "1.0.0",
+  "description": "an image search abstraction layer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JiashuLiu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.72.0"
+  }
+}
