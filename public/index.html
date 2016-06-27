@@ -1,3 +1,38 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Timestamp Microservice</title>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css'>
+<link rel="stylesheet" href="css/style.css">
+  </head>
 <body>
-  A simple image search abstraction layer, using Bing image search API.
+  <div>
+    <div class="container">
+      <div class="row">
+        <h3 id="title">Image Search Abstraction Layer</h3>
+        <p>FCC zipline by shshshjs1234@gmail.com</p><a href="https://github.com/JiashuLiu/ImgSearch">Github page</a>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+            User Stories:
+            <ol>
+              <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+              </li>
+              <li>I can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+              <li>I can get a list of the most recently submitted search strings.</li>
+            </ol>
+        </div>
+      </div>
+      <div class="row">
+        <h4>Example usage:</h4>
+        <code>https://image-search-layer.herokuapp.com/rainy%20days</code>
+        <br>
+        <code>https://image-search-layer.herokuapp.com/api/recent</code>
+      </div>
+    </div>
+  </div>
 </body>
+
+</html>
